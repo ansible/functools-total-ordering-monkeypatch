@@ -1,0 +1,1 @@
+import functools, total_ordering; setattr(functools, 'total_ordering', total_ordering.total_ordering) if not getattr(functools, 'total_ordering', None) else None;
